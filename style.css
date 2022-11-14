@@ -1,0 +1,28 @@
+/* Add your styles here */
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  display: block;
+}
+
+.row::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.column {
+  width: 33.333%;
+  margin-bottom: 5px;
+  float: left;
+  display: block;
+  padding: 0 3px;  
+}
+
+.column img {
+  width: 100%;
+  display: block; 
+}
